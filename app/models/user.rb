@@ -1,8 +1,3 @@
-#email:string
-#password_digest:string
-
-#password:string virtual
-#password_confirmation:sting virtual
 class User < ApplicationRecord
   has_many :twitter_accounts
   has_many :tweets
