@@ -1,0 +1,16 @@
+current directory: /Users/erinclaudio/Desktop/RoR_projects/scheduled_tweets/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/erinclaudio/.rvm/rubies/ruby-3.0.0/bin/ruby -I /Users/erinclaudio/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20210316-6708-tu6gak.rb extconf.rb
+creating Makefile
+
+current directory: /Users/erinclaudio/Desktop/RoR_projects/scheduled_tweets/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/erinclaudio/Desktop/RoR_projects/scheduled_tweets/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/erinclaudio/Desktop/RoR_projects/scheduled_tweets/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20210316-6708-byx7wx
