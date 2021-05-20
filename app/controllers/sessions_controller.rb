@@ -1,5 +1,4 @@
 class SessionsController < ApplicationController
-
   def new
   end
 
@@ -12,9 +11,7 @@ class SessionsController < ApplicationController
       flash[:alert] = "Invalid email or password"
       render :new
     end
-
   end
-
 
   def destroy
     session[:user_id] = nil

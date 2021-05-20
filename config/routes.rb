@@ -4,12 +4,11 @@ Rails.application.routes.draw do
   get "password", to: "passwords#edit", as: :edit_password
   patch "password", to: "passwords#update"
 
-  get "sign-up",  to: "registrations#new"
+  get "sign-up", to: "registrations#new"
   post "sign-up", to: "registrations#create"
 
-  get "sign-in",  to: "sessions#new"
+  get "sign-in", to: "sessions#new"
   post "sign-in", to: "sessions#create"
-
 
   delete "logout", to: "sessions#destroy"
 
@@ -23,8 +22,6 @@ Rails.application.routes.draw do
 
   resources :twitter_accounts
   resources :tweets
-  
 
   root to: "main#index"
-
 end
